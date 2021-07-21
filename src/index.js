@@ -10,4 +10,4 @@ app.use(cors());
 app.use(rotasUsuarios);
 app.use(rotasProdutos);
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
